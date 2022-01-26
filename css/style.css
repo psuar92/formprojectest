@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+body {
+	font-family: Dongle, sans-serif;
+  	font-size: 25px;
+  	font-weight: 400;
+  	line-height: 1.4;
+  	margin: 0;
+  	background: #010015 url("http://cdn30.us1.fansshare.com/image/wallpapermusic/music-wallpapers-wallpaper-music-201341340.jpg") no-repeat scroll 50% 50%;
+  	text-align: center;
+}
+
+h1 {
+	color: #DCF0FF;
+}
+
+p {
+	color: #DCF0FF;
+}
+
+#form {
+	background: rgba(255,255,255,0.5);
+	border: 5px groove #FFFFFF;
+	border-radius: 13px 13px 13px 13px;
+	display: inline-block;
+}
+
+#name {
+	border-radius: 4px 4px 4px 4px;
+}
+
+#email {
+	border-radius: 4px 4px 4px 4px;
+}
+
+#number {
+	border-radius: 4px 4px 4px 4px;
+}
+
+#more-details {
+	width: 300px;
+  	height: 150px;
+  	border-radius: 4px 4px 4px 4px;
+}
+
+
+

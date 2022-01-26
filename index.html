@@ -1,0 +1,59 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<h1 id="title">Your music taste</h1>
+
+		<p id="description">Let me know more about your music taste</p>
+
+		<div id="form">
+			<form id="survey-form">
+				<label for="name" id="name-label">What's your name?</label><br>
+				<input type="text" id="name" placeholder="Please enter your name" required><br>
+				<label for="email" id="email-label">What's your email address?</label><br>
+				<input type="email" id="email" placeholder="Please enter your email" required><br>
+				<label for="number" id="number-label">What's your phone number?</label><br>
+				<input type="number" id="number" min="0" max="999999999" placeholder="Phone number" required><br>
+				
+				<label for="country">In which continent do you live?</label><br>
+				<select name="country" id="dropdown">
+				  <option value="na">North America</option>
+				  <option value="Europe">Europe</option>
+				  <option value="sa">South America</option>
+				  <option value="safrica">South Africa</option>
+				  <option value="asia">Asia</option>
+				</select>
+				<br>
+				
+				<label for="gender">What's your gender?</label><br>
+				<input type="radio" name="gender" value="male"> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other<br>
+
+				<label for="checkbox">What are your preferred music genres?</label><br>
+				<input type="checkbox" id="genre" name="metal" value="Metal">
+				<label for="metal"> Metal</label><br>
+				<input type="checkbox" id="genre" name="rock" value="Rock">
+				<label for="rock"> Rock</label><br>
+				<input type="checkbox" id="genre" name="pop" value="Pop">
+				<label for="pop"> Pop</label><br>
+				<input type="checkbox" id="genre" name="classical" value="Classical">
+				<label for="classical"> Classical</label><br>
+				<input type="checkbox" id="genre" name="folk-country" value="Folk/Country">
+				<label for="folk-country"> Folk/Country</label><br>
+				<input type="checkbox" id="genre" name="hip-hop" value="Hip-Hop">
+				<label for="hip-hop"> Hip-Hop</label><br>
+				<input type="checkbox" id="genre" name="other" value="Other">
+				<label for="other"> Other</label><br>
+
+				<label for="more-details"> Tell us more about what do you think music can do to our lives</label><br>
+				<textarea id="more-details"></textarea><br>
+				<br>
+				<input type="submit" id="submit">
+			</form>
+		</div>
+	</body>
+</html>
